@@ -1,0 +1,95 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+#timbernerslee {
+    width: 195px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    color: black;
+    background: linear-gradient(#71eb34 0%, #3483eb 100%);
+    display: table;
+    width: 100%;
+    height: 800px;
+    z-index: 9;
+}
+
+.welcomeinner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#name {
+    font-size: 30px;
+    font-family: 'Fraunces', serif;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#info {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 20px;
+}
+
+.articles:hover {
+    color: darkblue;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+#contact {
+    background-color: lawngreen;
+}
+
+#contact a {
+    text-shadow: none;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+#bruh{
+    margin:50px;
+}
+#onetwo{
+    margin-right:400px;
+    margin-left:400px;
+    margin-bottom:100px;
+    padding-top:80px;
+
+}
